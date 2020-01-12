@@ -5,4 +5,6 @@ void main() {
 
   terminal.clearScreen();
   terminal.printPrompt('Hi There');
+  var input = terminal.collectInput();
+  print('You just entered: $input');
 }
