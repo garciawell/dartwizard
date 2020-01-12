@@ -1,20 +1,13 @@
-import 'package:prompter_sg/src/terminal.dart';
 import 'package:prompter_sg/src/option.dart';
+import 'package:prompter_sg/src/prompter.dart';
 
 void main() {
-  var terminal = new Terminal();
-
-  // terminal.clearScreen();
-  // terminal.printPrompt('Hi There');
-  // var input = terminal.collectInput();
-  // print('You just entered: $input');
-
-  var options = [
+  final options = [
     new Option('I want red', '#f00'),
     new Option('I want blue', '#00f')
   ];
 
-  terminal.printOptions(options);
-  var response = terminal.collectInput();
-  print('$response');
+  final prompter = new Prompter();
+  final usersPick = prompter.ask('What color do you like?', options);
+  print(usersPick);
 }
