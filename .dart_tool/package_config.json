@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "prompter_sg",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2020-01-12T03:21:22.322229Z",
+  "generator": "pub",
+  "generatorVersion": "2.7.0"
+}
