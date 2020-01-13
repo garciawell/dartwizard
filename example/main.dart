@@ -1,4 +1,4 @@
-import 'package:prompter_sg/prompter_sg.dart';
+import 'package:prompter_sg_garcia/prompter_sg_garcia.dart';
 
 void main() {
   final options = [

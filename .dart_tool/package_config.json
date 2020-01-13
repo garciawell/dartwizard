@@ -2,13 +2,13 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "prompter_sg",
+      "name": "prompter_sg_garcia",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-01-12T03:21:22.322229Z",
+  "generated": "2020-01-13T00:28:57.975617Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

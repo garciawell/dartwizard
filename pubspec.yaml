@@ -1,3 +1,8 @@
-name: prompter_sg
+name: prompter_sg_garcia
 version: 0.0.1
 description: Library to create CLI wizards
+author: Wellington Garcia <garciawell@gmail.com>
+homepage: http://wellingtongarcia.com
+
+environment:
+  sdk: "<3.0.0"
