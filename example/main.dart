@@ -1,5 +1,4 @@
-import 'package:prompter_sg/src/option.dart';
-import 'package:prompter_sg/src/prompter.dart';
+import 'package:prompter_sg/prompter_sg.dart';
 
 void main() {
   final options = [
@@ -8,6 +7,8 @@ void main() {
   ];
 
   final prompter = new Prompter();
-  final usersPick = prompter.ask('What color do you like?', options);
-  print(usersPick);
+  // final usersPick = prompter.ask('What color do you like?', options);
+  // print(usersPick);
+  prompter.askBinary('asdasdadsda');
+  print(prompter.askBinary('Do you like dart?'));
 }
